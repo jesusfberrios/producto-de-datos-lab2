@@ -21,7 +21,7 @@ class Model(str, Enum):
 # Usando @app.get("/") definimos un método GET para el endpoint / (que sería como el "home").
 @app.get("/")
 def home():
-    return "¡Felicitaciones! Tu API está funcionando según lo esperado. Anda ahora a http://localhost:8000/docs."
+    return "¡Felicitaciones! Tu API está funcionando según lo esperado. Anda ahora a https://producto-datos-lab2.herokuapp.com/docs."
 
 
 # Este endpoint maneja la lógica necesaria para detectar objetos.
